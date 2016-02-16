@@ -1,0 +1,32 @@
+#define _USE_MATH_DEFINES //computer may not be required to compile
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() { 
+
+	cout << "Enter 'A' for the area, 'D' for diameter, or 'C' for circumference and then input the radius of the circle: ";
+	
+	double radius;
+	char circle;
+	
+	cin >> circle >> radius; //reads for input
+	
+	switch (circle) {
+	case 'A':
+		cout << "The area of a circle with radius " << radius << " is " << (M_PI * pow(radius, 2)) << '\n';
+		break;
+	case 'C':
+		cout << "The circumference of a circle with radius " << radius << " is " << (2 * M_PI * radius) << '\n';
+		break;
+	case 'D':
+		cout << "The diameter of a circle with radius " << radius << " is " << (2 * radius) << '\n';
+		break;
+	default:
+		cout << "Error: Wrong input!" << '\n';
+	}
+}
+
+	//cout << "PI: " << M_PI << '\n'; //dont necessarily need to print thi
+	//cout << "The area for a circle with a radius " << radius << "is " << circle << '\n'; 
