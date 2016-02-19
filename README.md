@@ -22,7 +22,7 @@ int main() {
 
 Note:
 -----------
-Both variables were defined so they could easily be implemented into the program accordingly then later used in the following code:
+Both variables are note worthy and were defined so they could easily be implemented into the program accordingly:
 
 ```
 double radius;
