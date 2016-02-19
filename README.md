@@ -20,6 +20,17 @@ using namespace std;
 int main() { 
 ```
 
+Note:
+-----------
+Both variables were defined so they could easily be implemented into the program accordingly then later used in the following code:
+
+```
+double radius;
+char circle;
+
+cin >> circle >> radius;
+```
+
 Key Statements
 ==================================
 In the body of the program a switch function is used to help the program respond to the user's input. In essence, it is a very useful selection statement that responds to the user's input.
@@ -37,15 +48,4 @@ switch (circle) {
 		break;
 	default:
 		cout << "Error: Wrong input!" << '\n';
-```
-
-Note:
------------
-Both variables were defined so they could easily be implemented into the program accordingly then later used in the following code:
-
-```
-double radius;
-char circle;
-
-cin >> circle >> radius;
 ```
