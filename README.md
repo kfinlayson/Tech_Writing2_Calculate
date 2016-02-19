@@ -33,7 +33,7 @@ cin >> circle >> radius;
 
 Key Statements
 ==================================
-In the body of the program a switch function is used to help the program respond to the user's input. In essence, it is a very useful selection statement that responds to the user's input.
+In the body of the program a switch function is used to help the program respond to the user's input. In essence, it is a very useful selection statement that responds to the user's input in this case.
 
 ```
 switch (circle) {
