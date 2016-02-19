@@ -20,7 +20,9 @@ using namespace std;
 int main() { 
 ```
 
-In the body of the program a switch function is used to help the program respond to the user's input.
+Key Statements
+==================================
+In the body of the program a switch function is used to help the program respond to the user's input. In essence, it is a very useful selection statment that responds to the user's input.
 
 ```
 switch (circle) {
@@ -36,3 +38,4 @@ switch (circle) {
 	default:
 		cout << "Error: Wrong input!" << '\n';
 ```
+
