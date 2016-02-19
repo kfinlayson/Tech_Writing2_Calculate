@@ -39,3 +39,13 @@ switch (circle) {
 		cout << "Error: Wrong input!" << '\n';
 ```
 
+Note:
+-----------
+Both variables were defined so they could easily be implemented into the program accordingly then later used in the following code:
+
+```
+double radius;
+char circle;
+
+cin >> circle >> radius;
+```
