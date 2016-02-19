@@ -1,7 +1,7 @@
 # Tech_Writing2_Calculate
 Program Description
 ===========================
-This is a basic program created in C++ that will calculate the area, diameter, and circumference based on the information given by the user. The user begins by entering A for area, C for circumference, or D for diameter after this information is entered they input the amount they want to be used for the calculation. 
+This is a basic program created in C++ that will calculate the area, diameter, and circumference based on the information given by the user. The user begins by entering A for area, C for circumference, or D for diameter; after this information is entered they input the amount they want to be used for the calculation. 
 The program then takes the input given, calculates it accordingly, and outputs the answer.
 
 Functions
