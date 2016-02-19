@@ -27,6 +27,3 @@ int main() {
 		cout << "Error: Wrong input!" << '\n';
 	}
 }
-
-	//cout << "PI: " << M_PI << '\n'; //dont necessarily need to print thi
-	//cout << "The area for a circle with a radius " << radius << "is " << circle << '\n'; 
