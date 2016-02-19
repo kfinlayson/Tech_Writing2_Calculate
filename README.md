@@ -1,14 +1,14 @@
 # Tech_Writing2_Calculate
-Program Descrption
+Program Description
 ===========================
 This is a basic program created in C++ that will calculate the area, diameter, and circumference based on the information given by the user. The user begins by entering A for area, C for curcumference, or D for diameter after this information is entered they input the amount they want to be used for the calculation. 
 The program then takes the input given, calculates it accordingly, and outputs the answer.
 
 Functions
 ===========================
-Since this program is very basic it doesn't have very many functions that are needed aside from the initial main() function and a switch statement that makes up the majority of the program code.
+Since this program is very basic it doesn't have any functions that are needed aside from the initial main().
 
-Our main() function starts off the program and opens up the opportunity for other functions to be used. The main() functions comes directly after the directives:
+Our main() function starts off the program and opens up the opportunity for other functions to be used and is normally called regardless. The main() functions comes directly after the directives:
 
 ```
 #define _USE_MATH_DEFINES //computer may not be required to compile
