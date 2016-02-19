@@ -8,7 +8,7 @@ Functions
 ===========================
 Since this program is very basic it doesn't have any functions that are needed aside from the initial main().
 
-Our main() function starts off the program and opens up the opportunity for other functions to be used and is normally called regardless. The main() functions comes directly after the directives:
+Our main() function starts off the program and opens up the opportunity for other functions to be used and is normally called regardless. The main() function comes directly after the directives:
 
 ```
 #define _USE_MATH_DEFINES //computer may not be required to compile
@@ -22,7 +22,7 @@ int main() {
 
 Note:
 -----------
-Both variables are note worthy and were defined so they could easily be implemented into the program accordingly:
+Both variables are noteworthy and were defined so they could easily be implemented into the program accordingly:
 
 ```
 double radius;
